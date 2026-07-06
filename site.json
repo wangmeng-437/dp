@@ -1,1 +1,18 @@
-
+{
+  "spider": "shturl.cc/hcno1boZh3XllZfjULNBiug50ZEL2oyqrlOS",
+  "sites": [
+    // 逐个引入iplayr目录下的子配置文件
+    {"type": 1, "name":"123资源","api":"@./iplayr/123.json"},
+    {"type": 1, "name":"24hjav资源","api":"@./iplayr/24hjav.json"},
+    {"type": 1, "name":"4kav资源","api":"@./iplayr/4kav.json"},
+    {"type": 1, "name":"4kvm_movie资源","api":"@./iplayr/4kvm_movie.json"},
+    {"type": 1, "name":"7mm资源","api":"@./iplayr/7mm.json"},
+    {"type": 1, "name":"91pronmen资源","api":"@./iplayr/91pronmen.json"},
+    {"type": 1, "name":"aafun资源","api":"@./iplayr/aafun.json"},
+    {"type": 1, "name":"allav资源","api":"@./iplayr/allav.json"},
+    {"type": 1, "name":"av01资源","api":"@./iplayr/av01.json"},
+    {"type": 1, "name":"avbebe资源","api":"@./iplayr/avbebe.json"}
+  ],
+  "parses": [],
+  "lives": []
+}
