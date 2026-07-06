@@ -1,37 +1,39 @@
 {
-"uuid":"6ed73adf-8c3e-46dd-a8cd-64a7dfe491d2",
-"title":"123av",
-"episode_flag":false,
-"landscape_flag":true,
-"referer":"https://surrit.store/",
-"open_with_safari_flag":true,
-"category": [
-  {
-			"title": "新作上市",
-			"url0": "https://123av.com/cn/new",
-			"url1": "https://123av.com/cn/new?page={pg}"
-		},
-  {
-			"title": "最近更新",
-			"url0": "https://123av.com/cn/recent",
-			"url1": "https://123av.com/cn/recent?page={pg}"
-		}
-	],    
-"vod_node":"//div[@class='card']",
-"vod_info":"//span[@class='card__dur']",
-"vod_score":"//div[@class='card__meta']/span",
-"vod_title":"//h3//a",
-"vod_image_id":"//img/@src",
-"vod_image_regex":"",
-"vod_image_url":"{id}",
-"vod_link_id":"//h3//a/@href",
-"vod_link_url":"https://123av.com{id}",
-"play_regex":"",
-"play_url":"{id}",
-"playlist_flag":false,
-"playlist_group_node":"",
-"playlist_title":"",
-"playlist_link_id":"",
+  "uuid":"6ed73adf-8c3e-46dd-a8cd-64a7dfe491d2",
+  "title":"123av",
+  "type": 3,
+  "searchable": 1,
+  "episode_flag":false,
+  "landscape_flag":true,
+  "referer":"https://surrit.store/",
+  "open_with_safari_flag":true,
+  "category": [
+    {
+      "title": "新作上市",
+      "url0": "https://123av.com/cn/new",
+      "url1": "https://123av.com/cn/new?page={pg}"
+    },
+    {
+      "title": "最近更新",
+      "url0": "https://123av.com/cn/recent",
+      "url1": "https://123av.com/cn/recent?page={pg}"
+    }
+  ],
+  "vod_node":"//div[@class='card']",
+  "vod_info":"//span[@class='card_dur']",
+  "vod_score":"//div[@class='card_meta']/span",
+  "vod_title":"//h3//a",
+  "vod_image_id":"//img/@src",
+  "vod_image_regex":"",
+  "vod_image_url":"{id}",
+  "vod_link_id":"//h3//a/@href",
+  "vod_link_url":"https://123av.com{id}",
+  "play_regex":"",
+  "play_url":"{id}",
+  "playlist_flag":false,
+  "playlist_group_node":"",
+  "playlist_title":"",
+  "playlist_link_id":"",
 "playlist_link_url":"",
 "playlist_info":"",
 "search_flag":true,
