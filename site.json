@@ -1,18 +1,672 @@
 {
-  "spider": "shturl.cc/hcno1boZh3XllZfjULNBiug50ZEL2oyqrlOS",
-  "sites": [
-    // 逐个引入iplayr目录下的子配置文件
-    {"type": 1, "name":"123资源","api":"@./iplayr/123.json"},
-    {"type": 1, "name":"24hjav资源","api":"@./iplayr/24hjav.json"},
-    {"type": 1, "name":"4kav资源","api":"@./iplayr/4kav.json"},
-    {"type": 1, "name":"4kvm_movie资源","api":"@./iplayr/4kvm_movie.json"},
-    {"type": 1, "name":"7mm资源","api":"@./iplayr/7mm.json"},
-    {"type": 1, "name":"91pronmen资源","api":"@./iplayr/91pronmen.json"},
-    {"type": 1, "name":"aafun资源","api":"@./iplayr/aafun.json"},
-    {"type": 1, "name":"allav资源","api":"@./iplayr/allav.json"},
-    {"type": 1, "name":"av01资源","api":"@./iplayr/av01.json"},
-    {"type": 1, "name":"avbebe资源","api":"@./iplayr/avbebe.json"}
-  ],
+  "spider": "https://cdn.jsdelivr.net/gh/catvod/CatVodOpen/spider.jar",
   "parses": [],
-  "lives": []
+  "lives": [],
+  "sites": [
+    {
+      "key": "123",
+      "name": "123资源",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/123.json",
+      "searchable": 1
+    },
+    {
+      "key": "24hjav",
+      "name": "24hjav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/24hjav.json",
+      "searchable": 1
+    },
+    {
+      "key": "4kav",
+      "name": "4kav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/4kav.json",
+      "searchable": 1
+    },
+    {
+      "key": "4kvm_movie",
+      "name": "4kvm_movie",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/4kvm_movie.json",
+      "searchable": 1
+    },
+    {
+      "key": "7mm",
+      "name": "7mm",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/7mm.json",
+      "searchable": 1
+    },
+    {
+      "key": "91pronmen",
+      "name": "91pronmen",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/91pronmen.json",
+      "searchable": 1
+    },
+    {
+      "key": "aafun",
+      "name": "aafun",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/aafun.json",
+      "searchable": 1
+    },
+    {
+      "key": "allav",
+      "name": "allav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/allav.json",
+      "searchable": 1
+    },
+    {
+      "key": "av01",
+      "name": "av01",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/av01.json",
+      "searchable": 1
+    },
+    {
+      "key": "avbebe",
+      "name": "avbebe",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/avbebe.json",
+      "searchable": 1
+    },
+    {
+      "key": "avstime",
+      "name": "avstime",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/avstime.json",
+      "searchable": 1
+    },
+    {
+      "key": "badnewav",
+      "name": "badnewav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/badnewav.json",
+      "searchable": 1
+    },
+    {
+      "key": "badnews-long",
+      "name": "badnews-long",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/badnews-long.json",
+      "searchable": 1
+    },
+    {
+      "key": "cilixiong",
+      "name": "cilixiong",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/cilixiong.json",
+      "searchable": 1
+    },
+    {
+      "key": "cnradio",
+      "name": "cnradio",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/cnradio.json",
+      "searchable": 1
+    },
+    {
+      "key": "cz",
+      "name": "cz",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/cz.json",
+      "searchable": 1
+    },
+    {
+      "key": "dandanqu",
+      "name": "dandanqu",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/dandanqu.json",
+      "searchable": 1
+    },
+    {
+      "key": "dbk",
+      "name": "dbk",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/dbk.json",
+      "searchable": 1
+    },
+    {
+      "key": "ddq",
+      "name": "ddq",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/ddq.json",
+      "searchable": 1
+    },
+    {
+      "key": "dmxq",
+      "name": "dmxq",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/dmxq.json",
+      "searchable": 1
+    },
+    {
+      "key": "feikuai",
+      "name": "feikuai",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/feikuai.json",
+      "searchable": 1
+    },
+    {
+      "key": "feikuai2",
+      "name": "feikuai2",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/feikuai2.json",
+      "searchable": 1
+    },
+    {
+      "key": "fmcn",
+      "name": "fmcn",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/fmcn.json",
+      "searchable": 1
+    },
+    {
+      "key": "freeok",
+      "name": "freeok",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/freeok.json",
+      "searchable": 1
+    },
+    {
+      "key": "fuliji",
+      "name": "fuliji",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/fuliji.json",
+      "searchable": 1
+    },
+    {
+      "key": "gaze",
+      "name": "gaze",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/gaze.json",
+      "searchable": 1
+    },
+    {
+      "key": "getav",
+      "name": "getav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/getav.json",
+      "searchable": 1
+    },
+    {
+      "key": "girigiri",
+      "name": "girigiri",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/girigiri.json",
+      "searchable": 1
+    },
+    {
+      "key": "hayav",
+      "name": "hayav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/hayav.json",
+      "searchable": 1
+    },
+    {
+      "key": "hdmoli",
+      "name": "hdmoli",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/hdmoli.json",
+      "searchable": 1
+    },
+    {
+      "key": "hjkk",
+      "name": "hjkk",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/hjkk.json",
+      "searchable": 1
+    },
+    {
+      "key": "hohoj",
+      "name": "hohoj",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/hohoj.json",
+      "searchable": 1
+    },
+    {
+      "key": "hsex",
+      "name": "hsex",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/hsex.json",
+      "searchable": 1
+    },
+    {
+      "key": "hstream",
+      "name": "hstream",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/hstream.json",
+      "searchable": 1
+    },
+    {
+      "key": "iwant",
+      "name": "iwant",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/iwant.json",
+      "searchable": 1
+    },
+    {
+      "key": "javday",
+      "name": "javday",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/javday.json",
+      "searchable": 1
+    },
+    {
+      "key": "javdoe",
+      "name": "javdoe",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/javdoe.json",
+      "searchable": 1
+    },
+    {
+      "key": "javgg",
+      "name": "javgg",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/javgg.json",
+      "searchable": 1
+    },
+    {
+      "key": "javhd",
+      "name": "javhd",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/javhd.json",
+      "searchable": 1
+    },
+    {
+      "key": "javhdz",
+      "name": "javhdz",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/javhdz.json",
+      "searchable": 1
+    },
+    {
+      "key": "javmix",
+      "name": "javmix",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/javmix.json",
+      "searchable": 1
+    },
+    {
+      "key": "javopen",
+      "name": "javopen",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/javopen.json",
+      "searchable": 1
+    },
+    {
+      "key": "javtsunami",
+      "name": "javtsunami",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/javtsunami.json",
+      "searchable": 1
+    },
+    {
+      "key": "jddzx",
+      "name": "jddzx",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/jddzx.json",
+      "searchable": 1
+    },
+    {
+      "key": "kanav",
+      "name": "kanav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/kanav.json",
+      "searchable": 1
+    },
+    {
+      "key": "kmeiju",
+      "name": "kmeiju",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/kmeiju.json",
+      "searchable": 1
+    },
+    {
+      "key": "libvio2",
+      "name": "libvio2",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/libvio2.json",
+      "searchable": 1
+    },
+    {
+      "key": "lmm",
+      "name": "lmm",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/lmm.json",
+      "searchable": 1
+    },
+    {
+      "key": "lulu",
+      "name": "lulu",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/lulu.json",
+      "searchable": 1
+    },
+    {
+      "key": "lvv2",
+      "name": "lvv2",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/lvv2.json",
+      "searchable": 1
+    },
+    {
+      "key": "madouclub",
+      "name": "madouclub",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/madouclub.json",
+      "searchable": 1
+    },
+    {
+      "key": "meijuwo",
+      "name": "meijuwo",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/meijuwo.json",
+      "searchable": 1
+    },
+    {
+      "key": "memojav",
+      "name": "memojav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/memojav.json",
+      "searchable": 1
+    },
+    {
+      "key": "missav",
+      "name": "missav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/missav.json",
+      "searchable": 1
+    },
+    {
+      "key": "missav123",
+      "name": "missav123",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/missav123.json",
+      "searchable": 1
+    },
+    {
+      "key": "motv",
+      name": "motv",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/motv.json",
+      "searchable": 1
+    },
+    {
+      "key": "mt",
+      "name": "mt",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/mt.json",
+      "searchable": 1
+    },
+    {
+      "key": "mustjav",
+      "name": "mustjav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/mustjav.json",
+      "searchable": 1
+    },
+    {
+      "key": "myflixer",
+      "name": "myflixer",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/myflixer.json",
+      "searchable": 1
+    },
+    {
+      "key": "netflav",
+      "name": "netflav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/netflav.json",
+      "searchable": 1
+    },
+    {
+      "key": "news-radio",
+      "name": "news-radio",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/news-radio.json",
+      "searchable": 1
+    },
+    {
+      "key": "njavtvcom",
+      "name": "njavtvcom",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/njavtvcom.json",
+      "searchable": 1
+    },
+    {
+      "key": "novipnoa",
+      "name": "novipnoa",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/novipnoa.json",
+      "searchable": 1
+    },
+    {
+      "key": "olevod",
+      "name": "olevod",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/olevod.json",
+      "searchable": 1
+    },
+    {
+      "key": "pf",
+      "name": "pf",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/pf.json",
+      "searchable": 1
+    },
+    {
+      "key": "pigav",
+      "name": "pigav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/pigav.json",
+      "searchable": 1
+    },
+    {
+      "key": "pomo",
+      "name": "pomo",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/pomo.json",
+      "searchable": 1
+    },
+    {
+      "key": "ppnix",
+      "name": "ppnix",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/ppnix.json",
+      "searchable": 1
+    },
+    {
+      "key": "ppp",
+      "name": "ppp",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/ppp.json",
+      "searchable": 1
+    },
+    {
+      "key": "qdm",
+      "name": "qdm",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/qdm.json",
+      "searchable": 1
+    },
+    {
+      "key": "qifun",
+      "name": "qifun",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/qifun.json",
+      "searchable": 1
+    },
+    {
+      "key": "radio",
+      "name": "radio",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/radio.json",
+      "searchable": 1
+    },
+    {
+      "key": "renrenpro",
+      "name": "renrenpro",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/renrenpro.json",
+      "searchable": 1
+    },
+    {
+      "key": "rou",
+      "name": "rou",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/rou.json",
+      "searchable": 1
+    },
+    {
+      "key": "sgradio",
+      "name": "sgradio",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/sgradio.json",
+      "searchable": 1
+    },
+    {
+      "key": "supjav",
+      "name": "supjav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/supjav.json",
+      "searchable": 1
+    },
+    {
+      "key": "test",
+      "name": "test",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/test.json",
+      "searchable": 1
+    },
+    {
+      "key": "thaiav",
+      "name": "thaiav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/thaiav.json",
+      "searchable": 1
+    },
+    {
+      "key": "theav",
+      "name": "theav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/theav.json",
+      "searchable": 1
+    },
+    {
+      "key": "tktube",
+      "name": "tktube",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/tktube.json",
+      "searchable": 1
+    },
+    {
+      "key": "tktube2",
+      "name": "tktube2",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/tktube2.json",
+      "searchable": 1
+    },
+    {
+      "key": "twitter",
+      "name": "twitter",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/twitter.json",
+      "searchable": 1
+    },
+    {
+      "key": "ukradio",
+      "name": "ukradio",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/ukradio.json",
+      "searchable": 1
+    },
+    {
+      "key": "usradio",
+      "name": "usradio",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/usradio.json",
+      "searchable": 1
+    },
+    {
+      "key": "wantav",
+      "name": "wantav",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/wantav.json",
+      "searchable": 1
+    },
+    {
+      "key": "whostv",
+      "name": "whostv",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/whostv.json",
+      "searchable": 1
+    },
+    {
+      "key": "xgroovy",
+      "name": "xgroovy",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/xgroovy.json",
+      "searchable": 1
+    },
+    {
+      "key": "xiaobao",
+      "name": "xiaobao",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/xiaobao.json",
+      "searchable": 1
+    },
+    {
+      "key": "xigua",
+      "name": "xigua",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/xigua.json",
+      "searchable": 1
+    },
+    {
+      "key": "xl01",
+      "name": "xl01",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/xl01.json",
+      "searchable": 1
+    },
+    {
+      "key": "xxjoa16",
+      "name": "xxjoa16",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/xxjoa16.json",
+      "searchable": 1
+    },
+    {
+      "key": "yfsp",
+      "name": "yfsp",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/yfsp.json",
+      "searchable": 1
+    },
+    {
+      "key": "youknow",
+      "name": "youknow",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/youknow.json",
+      "searchable": 1
+    },
+    {
+      "key": "zizi",
+      "name": "zizi",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/zizi.json",
+      "searchable": 1
+    },
+    {
+      "key": "zxzj",
+      "name": "zxzj",
+      "type": 3,
+      "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/zxzj.json",
+      "searchable": 1
+    }
+  ]
 }
