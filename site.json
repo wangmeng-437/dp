@@ -390,7 +390,7 @@
     },
     {
       "key": "motv",
-      name": "motv",
+      "name": "motv",
       "type": 3,
       "api": "https://gb.hfr1107.top/https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/motv.json",
       "searchable": 1
