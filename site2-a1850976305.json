@@ -1,11 +1,13 @@
 {
 "sites": [
         {
+            "key": "hme",
             "type": 1,
             "name": "🍄黑木耳",
             "api": "https://json.heimuer.xyz/api.php/provide/vod"
         },
         {
+            "key": "huawei",
             "type": 1,
             "name": "huawei",
             "api": "https://huawei8.live/api.php/provide/vod"
@@ -51,6 +53,7 @@
             "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml"
         },
         {
+        "key": "魔都资源",        
             "type": 1,
             "name": "魔都资源",
             "api": "https://caiji.moduapi.cc/api.php/provide/vod"
